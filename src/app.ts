@@ -44,12 +44,12 @@ app.get('/health', (req, res) => {
 async function initializeApp() {
   try {
     // Connect to MongoDB
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/leaderboard_scraper');
-    console.log('Connected to MongoDB');
+    // await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/leaderboard_scraper');
+    // console.log('Connected to MongoDB');
 
     // Connect to Redis
-    await connectRedis();
-    console.log('Connected to Redis');
+    // await connectRedis();
+    // console.log('Connected to Redis');
 
     // Initialize scraper scheduler
     await initializeScraper();
