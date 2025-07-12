@@ -92,7 +92,7 @@ CHROME_PROFILE=Default
 **Available Chrome Profiles:**
 Based on your Chrome installation, you can use any of these profiles:
 - `Default` (recommended)
-- `Profile 1`, `Profile 7`, `Profile 16`, `Profile 24`, `Profile 28`, etc.
+- `Profile 1`, `Default`, `Profile 16`, `Profile 24`, `Profile 28`, etc.
 
 **Benefits of using Chrome User Data:**
 - 🍪 **Automatic Cookie Access**: No need to manually export/import cookies
