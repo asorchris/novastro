@@ -866,5 +866,5 @@ export class UndetectableScraper {
 export const scraper = new UndetectableScraper(
     './cookies.json',
     process.env.CHROME_USER_DATA_DIR,
-    process.env.CHROME_PROFILE || 'Profile 7'
+    process.env.CHROME_PROFILE || 'Default'
 );

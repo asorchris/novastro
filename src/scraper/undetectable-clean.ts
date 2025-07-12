@@ -600,5 +600,5 @@ export class UndetectableScraper {
 export const scraper = new UndetectableScraper(
   './cookies.json',
   undefined, // Auto-detect user data directory
-  process.env.CHROME_PROFILE || 'Profile 7'
+  process.env.CHROME_PROFILE || 'Default'
 );

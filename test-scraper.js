@@ -2,7 +2,7 @@ const { scraper } = require('./dist/scraper/undetectable');
 
 async function testScraper() {
   try {
-    console.log('Testing scraper with Chrome Profile 7...');
+    console.log('Testing scraper with Chrome Default...');
     
     // Initialize the scraper
     await scraper.initialize();

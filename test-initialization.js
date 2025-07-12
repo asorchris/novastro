@@ -7,7 +7,7 @@ async function testInitialization() {
     const scraper = new UndetectableScraper(
       './cookies.json',
       '/Users/m4cb000k/Library/Application Support/Google/Chrome',
-      'Profile 7'
+      'Default'
     );
     
     console.log('Scraper instance created successfully');
